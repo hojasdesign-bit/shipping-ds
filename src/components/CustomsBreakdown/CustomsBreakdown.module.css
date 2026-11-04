@@ -1,0 +1,7 @@
+.wrap { display: flex; flex-direction: column; gap: 12px; }
+.table { width: 100%; border-collapse: collapse; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); overflow: hidden; }
+.table th, .table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--sd-border); color: var(--sd-muted); font-size: 14px; }
+.table th { color: var(--sd-ink); }
+.table td:first-child { color: var(--sd-ink); font-weight: 700; }
+.total td { color: var(--sd-ink); font-weight: 900; }
+.wrap p { font-size: 12px; color: var(--sd-faint); }

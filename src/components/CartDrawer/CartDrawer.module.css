@@ -1,0 +1,12 @@
+.overlay { position: fixed; inset: 0; z-index: 50; }
+.backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.5); }
+.drawer { position: absolute; right: 0; top: 0; bottom: 0; width: min(400px, 92vw); background: var(--sd-surface); border-left: 1px solid var(--sd-border); padding: 24px; display: flex; flex-direction: column; gap: 16px; overflow: auto; }
+.head { display: flex; justify-content: space-between; align-items: center; }
+.close { background: transparent; border: 0; color: var(--sd-ink); padding: 8px; }
+.empty { color: var(--sd-muted); }
+.list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 16px; }
+.list li { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--sd-border); padding-bottom: 16px; }
+.list li > div { display: flex; flex-direction: column; }
+.list li span { color: var(--sd-muted); font-size: 14px; }
+.remove { background: transparent; border: 0; color: var(--sd-danger); font-size: 14px; }
+.subtotal { display: flex; justify-content: space-between; font-size: 18px; border-top: 1px solid var(--sd-border); padding-top: 16px; }

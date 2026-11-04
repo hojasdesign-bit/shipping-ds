@@ -1,0 +1,3 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.tile { display: flex; align-items: center; gap: 12px; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); padding: 16px 20px; font-weight: 700; color: var(--sd-ink); }
+.tile span { display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%; background: var(--sd-brand-soft); color: var(--sd-brand-cyan); flex-shrink: 0; }

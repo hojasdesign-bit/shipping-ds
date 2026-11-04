@@ -1,0 +1,18 @@
+.header { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 24px; background: var(--sd-header); border-bottom: 1px solid var(--sd-border); padding: 12px 32px; }
+.brand { display: inline-flex; flex-shrink: 0; }
+.brand img { display: block; height: 41px; width: auto; }
+.nav { display: flex; gap: 24px; margin: 0 auto; }
+.nav a { color: var(--sd-muted); font-weight: 500; }
+.nav a:hover { color: var(--sd-ink); text-decoration: none; }
+.actions { display: flex; align-items: center; gap: 12px; margin-left: auto; }
+.menuButton { display: none; background: transparent; border: 0; color: var(--sd-ink); padding: 8px; }
+.drawer { display: none; }
+@media (max-width: 820px) {
+  .header { flex-wrap: wrap; padding: 12px 16px; }
+  .nav { display: none; }
+  .actions { margin-left: auto; }
+  .actions button:not(.menuButton) { display: none; }
+  .menuButton { display: inline-flex; }
+  .drawer { display: flex; flex-direction: column; gap: 4px; width: 100%; padding-top: 12px; }
+  .drawer a { color: var(--sd-ink); padding: 10px 4px; border-top: 1px solid var(--sd-border); }
+}

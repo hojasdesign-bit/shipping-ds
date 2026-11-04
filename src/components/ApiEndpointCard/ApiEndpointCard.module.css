@@ -1,0 +1,5 @@
+.card { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.head { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.head code { font-family: var(--sd-font-mono); color: var(--sd-ink); font-weight: 700; word-break: break-all; }
+.card p { color: var(--sd-muted); }
+.code { background: var(--sd-surface-2); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); padding: 16px; overflow-x: auto; color: var(--sd-ink-2); font-size: 13px; margin: 0; }

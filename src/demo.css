@@ -1,0 +1,12 @@
+/* Shipping DS · página de muestra */
+.sd-demo { min-height: 100vh; background: var(--sd-bg); color: var(--sd-muted); }
+.sd-section { max-width: 1200px; margin: 0 auto; padding: 56px 24px; display: flex; flex-direction: column; gap: 24px; }
+.sd-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.sd-grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.sd-docs { display: grid; grid-template-columns: 260px 1fr; gap: 16px; align-items: start; }
+.sd-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+.sd-track-result { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+@media (max-width: 820px) {
+  .sd-grid-2, .sd-docs { grid-template-columns: 1fr; }
+  .sd-section { padding: 40px 16px; }
+}

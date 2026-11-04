@@ -1,0 +1,113 @@
+/* Shipping DS · tokens --sd-* · DM Sans · Oscuro por defecto (WeShipYou), claro disponible (Envíoclick).
+   Valores medidos por muestreo de píxeles en vivo (2026-11-03) y resto estimado visualmente; ver README. */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700;9..40,900&');
+
+:root,
+[data-theme='oscuro'] {
+  --sd-font-sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --sd-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  --sd-text-display: 52px;
+  --sd-text-h1: 40px;
+  --sd-text-h2: 28px;
+  --sd-text-h3: 24px;
+  --sd-text-h4: 20px;
+  --sd-text-body-lg: 18px;
+  --sd-text-body: 16px;
+  --sd-text-body-sm: 14px;
+  --sd-text-caption: 12px;
+
+  --sd-space-1: 4px;
+  --sd-space-2: 8px;
+  --sd-space-3: 12px;
+  --sd-space-4: 16px;
+  --sd-space-5: 20px;
+  --sd-space-6: 24px;
+  --sd-space-8: 32px;
+  --sd-space-10: 40px;
+  --sd-space-12: 48px;
+  --sd-space-16: 64px;
+
+  /* Oscuro — WeShipYou (medido) */
+  --sd-bg: #14171f;
+  --sd-bg-soft: #1c212f;
+  --sd-header: #141823;
+  --sd-surface: #171c26;
+  --sd-surface-2: #1c212f;
+  --sd-surface-3: #242938;
+  --sd-input-bg: #1c212f;
+  --sd-ink: #ffffff;
+  --sd-ink-2: #ececf0;
+  --sd-muted: #c7cddb;
+  --sd-faint: #8a93a8;
+  --sd-border: #242938;
+  --sd-border-strong: #33415e;
+
+  --sd-accent: #395cac;
+  --sd-accent-hover: #4a6ec4;
+  --sd-accent-active: #2e4a8f;
+  --sd-accent-light: #6685cc;
+  --sd-accent-soft: rgba(57, 92, 172, 0.16);
+  --sd-accent-softer: rgba(57, 92, 172, 0.08);
+  --sd-on-accent: #ffffff;
+
+  /* Tarjeta clara del marketplace (WeShipYou, medida) */
+  --sd-marketplace: #ececf0;
+  --sd-marketplace-ink: #14171f;
+  --sd-marketplace-muted: #4a5266;
+
+  /* Marca Gran Azul: solo logo y acentos de marca, no acción principal */
+  --sd-brand: #0075a7;
+  --sd-brand-cyan: #13c1df;
+  --sd-brand-soft: rgba(0, 117, 167, 0.14);
+
+  --sd-success: #22c55e;
+  --sd-warning: #f59e0b;
+  --sd-danger: #ef4444;
+  --sd-info: #3b82f6;
+
+  --sd-radius-sm: 8px;
+  --sd-radius-md: 16px;
+  --sd-radius-card: 20px;
+  --sd-radius-lg: 24px;
+  --sd-radius-pill: 999px;
+
+  --sd-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --sd-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --sd-shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.55);
+  --sd-hero-gradient: radial-gradient(120% 140% at 50% 0%, #1c212f 0%, #14171f 62%);
+}
+
+[data-theme='claro'] {
+  /* Claro — Envíoclick (medido) */
+  --sd-bg: #f2f3f6;
+  --sd-bg-soft: #ffffff;
+  --sd-header: #fcfdfd;
+  --sd-surface: #ffffff;
+  --sd-surface-2: #f2f3f6;
+  --sd-surface-3: #e5e7ec;
+  --sd-input-bg: #ffffff;
+  --sd-ink: #001142;
+  --sd-ink-2: #1a2955;
+  --sd-muted: #334168;
+  --sd-faint: #6b7280;
+  --sd-border: #e5e7ec;
+  --sd-border-strong: #cbd5e1;
+
+  --sd-accent: #001142;
+  --sd-accent-hover: #1a2955;
+  --sd-accent-active: #000a2e;
+  --sd-accent-light: #334168;
+  --sd-accent-soft: rgba(0, 17, 66, 0.08);
+  --sd-accent-softer: rgba(0, 17, 66, 0.04);
+  --sd-on-accent: #ffffff;
+
+  --sd-marketplace: #ffffff;
+  --sd-marketplace-ink: #001142;
+  --sd-marketplace-muted: #334168;
+
+  --sd-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.08);
+  --sd-shadow-md: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --sd-shadow-lg: 0 24px 64px rgba(0, 0, 0, 0.14);
+  --sd-hero-gradient: linear-gradient(180deg, #f2f3f6 0%, #e5e7ec 100%);
+}

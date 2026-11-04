@@ -1,0 +1,6 @@
+.card { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 24px; display: flex; flex-direction: column; gap: 12px; }
+.stars { display: flex; gap: 2px; }
+.on { color: var(--sd-accent-light); }
+.off { color: var(--sd-faint); }
+.text { color: var(--sd-ink); }
+.author { color: var(--sd-muted); font-size: 14px; }

@@ -1,0 +1,6 @@
+.card { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 24px; display: flex; flex-direction: column; gap: 12px; }
+.icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: var(--sd-radius-md); background: var(--sd-brand-soft); color: var(--sd-brand-cyan); }
+.card p { color: var(--sd-muted); }
+.card ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; color: var(--sd-muted); }
+.card li { display: flex; gap: 8px; align-items: flex-start; }
+.card li svg { color: var(--sd-success); margin-top: 2px; }

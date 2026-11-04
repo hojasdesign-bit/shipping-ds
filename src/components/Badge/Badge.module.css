@@ -1,0 +1,7 @@
+.badge { display: inline-flex; align-items: center; gap: 6px; border-radius: var(--sd-radius-pill); padding: 4px 12px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+.default { background: var(--sd-surface-3); color: var(--sd-ink); }
+.accent { background: var(--sd-accent); color: var(--sd-on-accent); }
+.brand { background: var(--sd-brand-soft); color: var(--sd-brand-cyan); }
+.success { background: rgba(34,197,94,.16); color: var(--sd-success); }
+.warning { background: rgba(245,158,11,.16); color: var(--sd-warning); }
+.danger { background: rgba(239,68,68,.16); color: var(--sd-danger); }

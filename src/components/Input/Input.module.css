@@ -1,0 +1,9 @@
+.wrap { display: flex; flex-direction: column; gap: 8px; text-align: left; }
+.label { font-size: 14px; font-weight: 700; color: var(--sd-ink); }
+.field { display: flex; align-items: center; gap: 8px; background: var(--sd-input-bg); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); padding: 0 16px; color: var(--sd-muted); }
+.field:focus-within { border-color: var(--sd-accent-light); }
+.hasError { border-color: var(--sd-danger); }
+.input { flex: 1; min-width: 0; background: transparent; border: 0; outline: 0; color: var(--sd-ink); font: inherit; padding: 14px 0; }
+.input::placeholder { color: var(--sd-faint); }
+.hint { font-size: 12px; color: var(--sd-faint); }
+.error { font-size: 12px; color: var(--sd-danger); }

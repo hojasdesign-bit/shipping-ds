@@ -1,0 +1,4 @@
+.strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; }
+.stat { display: flex; flex-direction: column; gap: 4px; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 24px; text-align: center; }
+.stat strong { font-size: 32px; color: var(--sd-ink); }
+.stat span { color: var(--sd-muted); font-size: 14px; }

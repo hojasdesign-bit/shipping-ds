@@ -1,0 +1,31 @@
+/* Shipping DS · estilos base */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--sd-bg);
+  color: var(--sd-muted);
+  font-family: var(--sd-font-sans);
+  font-size: var(--sd-text-body);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  color: var(--sd-ink);
+  font-family: var(--sd-font-sans);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+h1 { font-size: var(--sd-text-h1); }
+h2 { font-size: var(--sd-text-h2); }
+h3 { font-size: var(--sd-text-h3); }
+h4 { font-size: var(--sd-text-h4); }
+p { margin: 0; }
+a { color: var(--sd-accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { font-family: inherit; cursor: pointer; }
+::selection { background: var(--sd-accent); color: var(--sd-on-accent); }

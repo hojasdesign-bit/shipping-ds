@@ -1,0 +1,5 @@
+.card { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 32px; display: flex; flex-direction: column; gap: 12px; }
+.card p { color: var(--sd-muted); }
+.form { display: flex; gap: 12px; flex-wrap: wrap; align-items: end; }
+.form label { flex: 1; min-width: 220px; }
+.done { color: var(--sd-success); font-weight: 700; }

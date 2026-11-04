@@ -1,0 +1,7 @@
+.wrap { display: flex; flex-direction: column; gap: 20px; }
+.form { display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 12px; align-items: end; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 20px; }
+.field { display: flex; flex-direction: column; gap: 8px; font-size: 14px; font-weight: 700; color: var(--sd-ink); }
+.field select { background: var(--sd-input-bg); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); color: var(--sd-ink); font: inherit; padding: 14px 12px; }
+.results { display: flex; flex-direction: column; gap: 12px; }
+.summary { color: var(--sd-muted); font-size: 14px; }
+@media (max-width: 820px) { .form { grid-template-columns: 1fr; } }

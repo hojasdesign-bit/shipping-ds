@@ -1,0 +1,6 @@
+.card { background: var(--sd-marketplace); color: var(--sd-marketplace-ink); border-radius: var(--sd-radius-card); overflow: hidden; }
+.card h3 { color: var(--sd-marketplace-ink); }
+.cover { height: 120px; display: grid; place-items: center; font-size: 48px; font-weight: 900; background: linear-gradient(135deg, var(--sd-brand), var(--sd-brand-cyan)); color: #fff; }
+.body { padding: 20px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.meta { display: flex; align-items: center; gap: 6px; color: var(--sd-marketplace-muted); font-size: 14px; }

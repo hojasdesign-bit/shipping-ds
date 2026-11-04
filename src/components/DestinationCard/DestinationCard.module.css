@@ -1,0 +1,4 @@
+.card { display: flex; align-items: center; gap: 16px; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 20px; }
+.code { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--sd-accent-soft); color: var(--sd-accent-light); font-weight: 900; flex-shrink: 0; }
+.card p { color: var(--sd-muted); font-size: 14px; }
+.card > svg { margin-left: auto; color: var(--sd-faint); }

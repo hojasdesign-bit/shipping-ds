@@ -1,0 +1,6 @@
+.wrap { max-width: 720px; margin: 0 auto 32px; }
+.center { text-align: center; }
+.left { margin-left: 0; text-align: left; }
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--sd-accent-light); margin-bottom: 12px; }
+.title { font-size: var(--sd-text-h2); line-height: 1.2; }
+.text { margin-top: 12px; color: var(--sd-muted); }

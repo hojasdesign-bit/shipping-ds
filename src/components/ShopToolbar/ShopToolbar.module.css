@@ -1,0 +1,7 @@
+.toolbar { display: flex; flex-direction: column; gap: 12px; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 20px; }
+.cats { display: flex; gap: 8px; flex-wrap: wrap; }
+.cat { background: transparent; border: 1px solid var(--sd-border); border-radius: var(--sd-radius-pill); color: var(--sd-muted); padding: 8px 16px; font-weight: 700; }
+.cat.active { background: var(--sd-accent); border-color: var(--sd-accent); color: #fff; }
+.sort { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--sd-ink); }
+.sort select { background: var(--sd-input-bg); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); color: var(--sd-ink); font: inherit; padding: 10px 12px; }
+.count { font-size: 14px; color: var(--sd-faint); }

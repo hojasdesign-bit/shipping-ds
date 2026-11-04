@@ -1,0 +1,14 @@
+.button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border: 1px solid transparent; border-radius: var(--sd-radius-pill); font-weight: 700; cursor: pointer; transition: background .15s, color .15s, border-color .15s; white-space: nowrap; }
+.primary { background: var(--sd-accent); color: var(--sd-on-accent); }
+.primary:hover { background: var(--sd-accent-hover); }
+.secondary { background: transparent; color: var(--sd-ink); border-color: var(--sd-border-strong); }
+.secondary:hover { border-color: var(--sd-accent-light); }
+.ghost { background: transparent; color: var(--sd-muted); }
+.ghost:hover { color: var(--sd-ink); }
+.brand { background: var(--sd-brand); color: #fff; }
+.brand:hover { background: var(--sd-brand-cyan); color: #071d2f; }
+.sm { padding: 8px 16px; font-size: 14px; }
+.md { padding: 12px 24px; font-size: 16px; }
+.lg { padding: 14px 28px; font-size: 16px; }
+.fullWidth { width: 100%; }
+.loading, .button:disabled { opacity: .55; cursor: not-allowed; }

@@ -1,0 +1,10 @@
+.card { background: var(--sd-marketplace); color: var(--sd-marketplace-ink); border-radius: var(--sd-radius-card); overflow: hidden; }
+.card h3 { color: var(--sd-marketplace-ink); }
+.cover { height: 150px; background: var(--sd-surface-3); display: flex; justify-content: space-between; align-items: flex-start; padding: 16px; }
+.fav { background: #fff; border: 0; border-radius: 50%; width: 40px; height: 40px; display: grid; place-items: center; color: var(--sd-marketplace-ink); }
+.fav[aria-pressed="true"] { color: var(--sd-danger); }
+.body { padding: 20px; display: flex; flex-direction: column; gap: 8px; }
+.prices { display: flex; gap: 8px; align-items: baseline; }
+.prices s { color: var(--sd-marketplace-muted); }
+.prices strong { font-size: 20px; }
+.stock { font-size: 14px; color: var(--sd-danger); font-weight: 700; }

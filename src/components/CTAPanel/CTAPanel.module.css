@@ -1,0 +1,8 @@
+.panel { border-radius: var(--sd-radius-lg); padding: 48px 32px; text-align: center; display: flex; flex-direction: column; gap: 16px; align-items: center; }
+.accent { background: var(--sd-accent); color: var(--sd-on-accent); }
+.accent h2 { color: #fff; }
+.accent p { color: rgba(255,255,255,.85); }
+.brand { background: linear-gradient(135deg, var(--sd-brand), var(--sd-brand-cyan)); color: #fff; }
+.brand h2 { color: #fff; }
+.dark { background: var(--sd-surface-2); border: 1px solid var(--sd-border); }
+.actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }

@@ -1,0 +1,28 @@
+{
+  "name": "shipping-ds",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Shipping DS · Sistema de diseño de Gran Azul para envíos (React + Storybook), basado en patrones de WeShipYou y Envíoclick, con contenido demo propio",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@hugeicons/core-free-icons": "^4.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.6.2",
+    "@storybook/addon-themes": "^10.6.2",
+    "@storybook/react-vite": "^10.6.2",
+    "@vitejs/plugin-react": "^6.1.2",
+    "storybook": "^10.6.2",
+    "vite": "^8.3.4"
+  }
+}

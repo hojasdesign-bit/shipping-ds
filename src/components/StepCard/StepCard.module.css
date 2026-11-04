@@ -1,0 +1,4 @@
+.card { background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); padding: 24px; display: flex; flex-direction: column; gap: 12px; position: relative; }
+.number { position: absolute; top: 20px; right: 24px; font-size: 32px; font-weight: 900; color: var(--sd-surface-3); }
+.icon { display: grid; place-items: center; width: 48px; height: 48px; border-radius: var(--sd-radius-md); background: var(--sd-accent-soft); color: var(--sd-accent-light); }
+.card p { color: var(--sd-muted); }

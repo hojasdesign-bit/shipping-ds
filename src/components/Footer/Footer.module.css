@@ -1,0 +1,8 @@
+.footer { background: var(--sd-header); border-top: 1px solid var(--sd-border); padding: 48px 32px 24px; color: var(--sd-muted); }
+.top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 32px; max-width: 1200px; margin: 0 auto 32px; }
+.top nav { display: flex; flex-direction: column; gap: 10px; }
+.top nav h4 { color: var(--sd-ink); }
+.top nav a { color: var(--sd-muted); }
+.socials { display: flex; gap: 12px; margin-top: 16px; color: var(--sd-muted); }
+.legal { text-align: center; font-size: 12px; color: var(--sd-faint); border-top: 1px solid var(--sd-border); padding-top: 20px; max-width: 1200px; margin: 0 auto; }
+@media (max-width: 820px) { .top { grid-template-columns: 1fr 1fr; } }

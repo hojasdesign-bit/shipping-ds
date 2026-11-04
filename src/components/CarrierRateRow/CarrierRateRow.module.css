@@ -1,0 +1,7 @@
+.row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; background: var(--sd-surface); border: 1px solid var(--sd-border); border-radius: var(--sd-radius-md); padding: 16px 20px; }
+.row > div { display: flex; flex-direction: column; min-width: 180px; }
+.row > div span { color: var(--sd-muted); font-size: 14px; }
+.row > div strong { color: var(--sd-ink); }
+.featured { border-color: var(--sd-accent-light); }
+.days { color: var(--sd-muted); font-size: 14px; }
+.price { margin-left: auto; font-size: 20px; color: var(--sd-ink); }

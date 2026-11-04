@@ -1,0 +1,6 @@
+.wrap { overflow-x: auto; border: 1px solid var(--sd-border); border-radius: var(--sd-radius-card); }
+.table { width: 100%; border-collapse: collapse; min-width: 560px; background: var(--sd-surface); }
+.table th, .table td { padding: 14px 20px; text-align: left; border-bottom: 1px solid var(--sd-border); color: var(--sd-muted); }
+.table th { color: var(--sd-ink); }
+.table td:first-child { color: var(--sd-ink); font-weight: 700; }
+.highlight { background: var(--sd-accent-soft); }

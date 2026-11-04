@@ -1,0 +1,5 @@
+.card { border-radius: var(--sd-radius-card); padding: 24px; }
+.surface { background: var(--sd-surface); border: 1px solid var(--sd-border); }
+.marketplace { background: var(--sd-marketplace); color: var(--sd-marketplace-ink); }
+.marketplace h1, .marketplace h2, .marketplace h3, .marketplace h4 { color: var(--sd-marketplace-ink); }
+.raised { background: var(--sd-surface-2); border: 1px solid var(--sd-border); box-shadow: var(--sd-shadow-md); }
